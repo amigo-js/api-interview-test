@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": false,
+    "browserifyOptions": {
+      "extensions": [".ts"],
+      "plugin": [
+        ["@cypress/browserify-preprocessor", {
+          "typescript": "./package.json"
+        }]
+      ]
+    }
+  }
+  
